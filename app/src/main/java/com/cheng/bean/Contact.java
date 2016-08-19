@@ -11,6 +11,9 @@ public class Contact {
     private String contactPhone;
     private int contactState;
 
+    public Contact() {
+    }
+
     public Contact(int contactId, String contactName, String contactCardID, String contactPhone, int contactState) {
         this.contactId = contactId;
         this.contactName = contactName;
